@@ -99,7 +99,7 @@ main .slogan {
 }
 .row {
 	width: 100%;
-	padding-bottom: 20px;
+/*	padding-bottom: 20px*/;
 /*	text-align: center;*/ 
 }
 
@@ -192,12 +192,17 @@ main .slogan {
 }
 
 .container__3 {
+	float: left;
 	/*border: 1px solid #000;*/
 	margin-left: 20px;
 	margin-top: 40px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 10px;
 }
+
+.container__3 h3 {
+	padding-bottom: 30px;
+}
+
 
 .container__3 h4 {
 	font-weight: bold;
@@ -212,6 +217,8 @@ main .slogan {
 	padding-top: 30px;
 	padding-left: 30px;
 }
+
+
 
 .container__4 h4 {
 	font-weight: bolder;
@@ -306,6 +313,11 @@ form .check__mark {
 	font-weight: bold;
 }
 
+.cont6__footer a {
+	text-decoration: none;
+	color: #fff;
+}
+
 .container__6sit {
-	padding-left: 40px;
+	padding-left: 50px;
 }
