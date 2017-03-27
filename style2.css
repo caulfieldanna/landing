@@ -98,9 +98,7 @@ main .slogan {
 	padding-left: 60px;
 }
 .row {
-	width: 100%;
-/*	padding-bottom: 20px*/;
-/*	text-align: center;*/ 
+	width: 100%; 
 }
 
 .container {
@@ -215,14 +213,16 @@ main .slogan {
 	color: #fff;
 	min-height: 300px;
 	padding-top: 30px;
-	padding-left: 30px;
+/*	padding-left: 30px;*/
 }
 
-
+.container__4 h3 {
+	padding-left: 80px;
+}
 
 .container__4 h4 {
 	font-weight: bolder;
-	padding-left: -20px;
+	padding-left: -40px;
 	padding-top: 20px;
 	font-size: 1em;
 }
@@ -230,7 +230,7 @@ main .slogan {
 .container__5 {
 	float: left;
 	min-height: 400px;
-	padding-top: 60px;
+	padding-top: 40px;
 	background: #f1f1f1;
 }
 
@@ -239,6 +239,15 @@ main .slogan {
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: bold;
+}
+
+.cont5__hover {
+	padding: 20px;	
+	background-color: #f1f1f1;
+}
+
+.cont5__hover:hover {
+	background-color: #fff;
 }
 
 .cont5__btn__green {
