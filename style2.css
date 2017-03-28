@@ -4,7 +4,7 @@
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
-	margin: auto;
+	margin: 0 auto;
 	padding: 0;
 	font-size: 16px;
 }
@@ -90,7 +90,7 @@ main .slogan {
 	position: absolute;
 	right: -530%;
 	margin: auto;
-	top: -100%;
+	top: -95%;
 }
 
 .slogan {
@@ -99,6 +99,9 @@ main .slogan {
 }
 .row {
 	width: 100%; 
+	margin-right: 0px;
+    margin-left: 0px;
+    padding-bottom: 0px;
 }
 
 .container {
@@ -116,7 +119,6 @@ main .slogan {
 	position: relative;
 	display: block;
 	float: left;
-	margin: -10px;
 	color: #fff;
 }
 
@@ -307,9 +309,10 @@ main .slogan {
 
 form .check__mark {
 	background: #82ca9c;
-	padding: 6px;
+	padding: 5px;
     margin: -4px;
     margin-top: -9px;
+    border: 1px solid #82ca9c;
 }
 
 .cont6__spam {
@@ -329,4 +332,6 @@ form .check__mark {
 
 .container__6sit {
 	padding-left: 50px;
+	color: #000;
 }
+
